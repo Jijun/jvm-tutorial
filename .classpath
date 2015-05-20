@@ -1,36 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry excluding="**" kind="src" output="target/test-classes" path="src/test/resources">
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" output="target/test-classes" path="src/test/resources"/>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry excluding="**/*.java" including="**/*.java" kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
-		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="var" path="M2_REPO/cglib/cglib/3.1/cglib-3.1.jar" sourcepath="M2_REPO/cglib/cglib/3.1/cglib-3.1-sources.jar"/>
+	<classpathentry kind="var" path="M2_REPO/org/ow2/asm/asm/4.2/asm-4.2.jar"/>
+	<classpathentry kind="lib" path="/opt/jdk6/lib/tools.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/catalina.jar" sourcepath="/home/ranger/Public/tc7.0.x/tags/TOMCAT_7_0_55"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-coyote.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/annotations-api.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/catalina-ant.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/catalina-ha.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/catalina-tribes.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/ecj-P20140317-1600.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/el-api.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/jasper.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/jasper-el.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/jsp-api.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat7-websocket.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-api.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-dbcp.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-i18n-es.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-i18n-fr.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-i18n-ja.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-jdbc.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/tomcat-util.jar"/>
+	<classpathentry kind="lib" path="/media/Juice/miscellaneous/apache/tomcat/apache-tomcat-7.0.53/lib/websocket-api.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
