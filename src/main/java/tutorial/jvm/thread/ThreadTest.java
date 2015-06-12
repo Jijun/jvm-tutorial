@@ -3,8 +3,8 @@ package tutorial.jvm.thread;
 public class ThreadTest {
 
 	public static void main(String[] args) throws InterruptedException {
-		
-		final Thread t1 = new Thread(){
+
+		final Thread t1 = new Thread() {
 			public void run() {
 				try {
 					Thread.sleep(5000);
@@ -15,9 +15,9 @@ public class ThreadTest {
 				System.out.println("T1 running");
 			};
 		};
-		
+
 		Thread t2 = new Thread(t1) {
-			
+
 			public void run() {
 				try {
 					t1.join();
@@ -30,8 +30,8 @@ public class ThreadTest {
 		t1.start();
 		t2.start();
 
-			t2.join();
+		t2.join();
 		System.out.println("main Thread running");
-		
+
 	}
 }

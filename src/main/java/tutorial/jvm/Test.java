@@ -15,6 +15,9 @@ public class Test extends Test1 {
         Test t = null;
         Test t2 = new Test();
 
+        System.out.println(5%3);
+        System.out.print(5&(3-1));
+        
     }
     static {
         System.out.println("E");
